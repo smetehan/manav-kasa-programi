@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class project {
+    public static void main(String[] args) {
+
+double armut=2.14, armutkg, elma=3.67,elmakg, domates=1.11,domateskg,  muz=0.95, muzkg,  patlican=5.00,patlicankg, total;
+Scanner pazar=new Scanner(System.in);
+System.out.print("Armut Miktari (kg fiyati :2.14tl) :");
+armutkg=pazar.nextDouble();
+System.out.print("Elma Miktari (kg fiyati :3.67tl) :");
+elmakg=pazar.nextDouble();
+System.out.print("Domates Miktari (kg fiyati :1.11tl) :");
+domateskg=pazar.nextDouble();
+System.out.print("Muz Miktari (kg fiyati :0.95tl) :");
+muzkg=pazar.nextDouble();
+System.out.print("Patlican Miktari (kg fiyati :5.00tl) :");
+patlicankg= pazar.nextDouble();
+
+total=((armut*armutkg)+(elma*elmakg)+(domates*domateskg)+(muz*muzkg)+(patlican*patlicankg));
+System.out.println("Toplam Odenecek Tutar :"+total);
+
+
+
+
+
+
+    }
+}
